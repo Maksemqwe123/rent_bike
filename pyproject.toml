@@ -1,0 +1,16 @@
+[tool.poetry]
+name= "rent-bike"
+version = "0.1.0"
+description = ""
+authors = ["Markoutsou <Markovtsovmaxim@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+SQLAlchemy = "^2.0.23"
+alembic = "^1.12.1"
+psycopg2-binary = "^2.9.9"
+pytest = "^8.3.4"
+
+[build-system]
+requires = ["poetry-core"]
